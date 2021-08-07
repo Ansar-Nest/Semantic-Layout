@@ -1,0 +1,255 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+ width: 1200px;
+ margin: 0 auto;   
+}
+a{
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+    height:auto;
+    margin-top: 10px;
+}
+.page-header{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+}
+.main-menu{
+    flex-grow: 1;
+}
+.main-menu-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.main-menu-list a{
+    font-size: 30px;
+    line-height: 41px;
+    color: #2a3d8f;
+    width: 1200px;
+}
+.main-menu-list:hover{
+    cursor: pointer;
+    color: #3893cc;
+}
+.page-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    color: #000000;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #b5d4c5;
+}
+.footer-social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.hashtag{
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.copyright{
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.social-button{
+    margin: 0px 10px;
+
+}
+.footer-wrapper{
+    background-color:#b5d4c5 ;
+}
+.slogan{
+    background-image: url(semantic-folder/innsbruck1.png);
+    height: 558px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #dbe8f7;
+}
+.slogan h1{
+    margin: 0;
+    color: #ffffff;
+    padding-top: 240px;
+    font-size: 60px;
+    line-height: 82px;
+}
+h2{
+  color:#2a3d8f ;  
+  font-size: 36px;
+  line-height: 49px;
+}
+h3{
+    font-size: 30px;
+    line-height: 41px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.marketing p{
+    position: relative;
+   bottom: 320px;
+   font-family: monospace;
+   font-size: 20px;
+    right: 150px;
+}
+.marketing a{
+    position: relative;
+    bottom: 160px;
+    left: 330px;
+    color: black  ;
+    padding: 5px;
+    background-color: rgb(190, 184, 184) ;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.marketing img{
+    width: 450px;
+    height: 300px;
+}
+.about-numbers li{
+    list-style-type: square;
+}
+figcaption{
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+.about-weather-graph img{
+    border: 2px solid grey;
+}
+.gallery h2,p{
+    margin-left: 160px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.palace{
+    background-color:rgb(134, 201, 178) ;
+    height: 309px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-grow: 0.5;
+    
+}
+.palace p{
+    color: white;
+    margin: 0 auto;
+    padding: 50 auto ;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container2{
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: center;
+}
+.park{
+    background-color:rgb(134, 201, 178) ;
+    height: 310px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-grow: 0.5;
+}
+.park-pic{
+    height: 309px;
+    
+}
+.park p{
+    color: white;
+    margin: 0 auto;
+    padding: 50 auto ;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.castle{
+    background-color:rgb(134, 201, 178) ;
+    height: 310px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-grow: 0.5;
+    width: 240px;
+    
+}
+.castle p{
+    color: white;
+    margin: 0 auto;
+    padding: 50 auto ;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe{
+    width: 100%;
+}
+.transfer{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.transfer td,th{
+    border: 1px solid #333;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+.transfer thead{
+    background-color: rgb(32, 46, 92);
+    color: #fff;
+}
+.map p{
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
